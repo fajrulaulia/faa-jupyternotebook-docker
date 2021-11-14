@@ -1,0 +1,9 @@
+version: "3"  # optional since v1.27.0
+services:
+  jupyter:
+    image: faawidia/faa-jupyter-notebook
+    container_name: "faa-jupyter-notebook"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./workspace-data:/home/fajrul/workspace/sample-project
