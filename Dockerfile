@@ -14,7 +14,7 @@ RUN pip3 install scikit-learn
 RUN pip3 install theano
 RUN pip3 install tensorFlow
 RUN pip3 install keras
-RUN pip3 install pyTorch
+RUN pip3 install torchvision
 RUN pip3 install matplotlib
 
 EXPOSE 8080
