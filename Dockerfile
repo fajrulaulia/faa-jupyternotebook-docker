@@ -16,6 +16,4 @@ RUN pip3 install tensorFlow
 RUN pip3 install keras
 RUN pip3 install torchvision
 RUN pip3 install matplotlib
-
-EXPOSE 8080
 ENTRYPOINT ["jupyter","notebook","--ip='*'","--port=8888","--no-browser", "--allow-root"]
