@@ -14,6 +14,5 @@ RUN pip3 install scikit-learn
 RUN pip3 install theano
 RUN pip3 install tensorFlow
 RUN pip3 install keras
-RUN pip3 install torchvision
 RUN pip3 install matplotlib
 ENTRYPOINT ["jupyter","notebook","--ip='*'","--port=8888","--no-browser", "--allow-root"]
